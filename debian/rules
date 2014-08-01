@@ -15,7 +15,6 @@ CONFFLAGS = \
 	--enable-libcryptsetup \
 	--enable-tcpwrap \
 	--disable-coredump \
-	--disable-efi \
 	--disable-myhostname \
 	--disable-vconsole \
 	--disable-silent-rules
