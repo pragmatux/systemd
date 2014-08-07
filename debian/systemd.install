@@ -8,7 +8,8 @@ bin/systemd-ask-password
 bin/systemd-machine-id-setup
 bin/systemd-tmpfiles
 bin/systemd-inhibit
-#usr/bin/kernel-install
+usr/bin/kernel-install
+usr/lib/kernel/install.d/
 lib/systemd/
 lib/udev/rules.d/70-uaccess.rules
 lib/udev/rules.d/73-seat-late.rules

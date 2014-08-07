@@ -73,7 +73,7 @@ if [[ ! $COMMAND ]] || [[ ! $KERNEL_VERSION ]]; then
     exit 1
 fi
 
-BOOT_DIR_ABS="/boot/$MACHINE_ID/$KERNEL_VERSION"
+BOOT_DIR_ABS="/boot/efi/$MACHINE_ID/$KERNEL_VERSION"
 ret=0
 
 readarray -t PLUGINS < <(
