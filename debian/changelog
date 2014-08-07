@@ -1,6 +1,7 @@
-systemd (204-6~bpo70+0ptux2) any; urgency=low
+systemd (204-6~bpo70+0ptux5) any; urgency=low
 
   * Configure in EFI features like generating a boot.mount
+  * Enable installation of /usr/bin/kernel-install
 
  -- Ryan Kuester <rkuester@insymbols.com>  Fri, 01 Aug 2014 12:42:23 -0500
 
